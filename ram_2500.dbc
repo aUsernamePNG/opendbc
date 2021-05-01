@@ -36,5 +36,22 @@ BS_:
 BU_: XXX
 
 
-BO_ 55 NEW_MSG_1: 8 XXX
- SG_ NEW_SIGNAL_1 : 23|23@0+ (1,0) [0|8388607] "" XXX
+BO_ 55 untitled: 8 XXX
+
+BO_ 258 EPS_1: 8 XXX
+ SG_ STEER_ANGLE : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ MOTOR : 23|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 264 PCM: 8 XXX
+ SG_ RPM : 7|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 792 STEERING_LEVERS: 8 XXX
+ SG_ BLINKER_RIGHT : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ AUTO_HIGH_BEAM : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ BLINKER_LEFT : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ HIGH_BEAM_FLASH  : 3|1@0+ (1,0) [0|1] "" XXX
+
+
+
+
+CM_ SG_ 792 AUTO_HIGH_BEAM "1 on 0 off";
